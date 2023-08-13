@@ -29,7 +29,7 @@ const Menu = () => {
         <div className="flex items-center justify-between text-blue-gray-900">
             <Typography
                 as="a"
-                href="/"
+                href="/reactjs-shopping/"
                 variant="h6"
                 className="mr-4 cursor-pointer py-1.5"
             >
@@ -65,11 +65,11 @@ const NavList = () => {
     const nav = [
         {
             title: 'Home',
-            url: '/'
+            url: '/reactjs-shopping/'
         },
         {
             title: 'Products',
-            url: '/products'
+            url: '/reactjs-shopping/products'
         },
     ];
     return (
