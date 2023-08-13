@@ -13,7 +13,7 @@ import Products from './Products';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/reactjs-shopping/",
     element: <App/>,
     errorElement: <ErrorPage/>,
     children: [
@@ -22,11 +22,11 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "product/:productId",
+        path: "reactjs-shopping/product/:productId",
         element: <Producto />,
       },
       {
-        path: "products",
+        path: "reactjs-shopping/products",
         element: <Products />,
       },
     ],
